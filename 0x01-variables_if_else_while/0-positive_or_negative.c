@@ -1,0 +1,22 @@
+#include <stdlib.h>
+#include <stdtime.h>
+#include <stdio.h>
+
+/**
+ * main - To print whether the number stored in the variable n is positive or negative
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+	int n;
+	stran(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	if (n > 0)
+		printf("%d is posittive\n", n);
+	if (n >0)
+		printf("%d is negative\n", n);
+	else
+		printf(%d is zero\n", n);
+	return (0);
