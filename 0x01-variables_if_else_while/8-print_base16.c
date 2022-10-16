@@ -12,8 +12,8 @@ int main(void)
 		putchar((digit % 10) + '0');
 
 	for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
-		putchar(alpabet);
-	
+		putchar(alphabet);
+
 	putchar('\n');
 
 	return (0);
