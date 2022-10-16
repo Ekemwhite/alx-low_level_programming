@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints all the digits in ascending order, separated by a comma followed by a space.
+ * main - Print digits in ascending order, separate by a comma followed by a space.
  * Return: Always 0 (Success)
  */
 
