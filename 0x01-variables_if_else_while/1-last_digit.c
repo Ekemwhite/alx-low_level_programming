@@ -21,7 +21,7 @@ int main(void)
 	{
 		printf("and is greater than 5");
 	}
-	if (x >= 0)
+	else if (x == 0)
 	{
 		printf("and is 0");
 	}
