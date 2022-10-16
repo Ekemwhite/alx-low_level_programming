@@ -7,15 +7,16 @@
 {
 	int digit;
 
-	for (digit = 0, digit <= 9)
+	for (digit = 0; digit <= 9; digit++)
 	{
-		putchar((digit % 10) + "0");
+		putchar((digit % 10) + '0');
 		if (digit == 9)
 			continue;
 		putchar(",");
 		putchar(",");
 	}
 
-	putchar("\");
+	putchar("\n");
+
 	return (0);
 }
