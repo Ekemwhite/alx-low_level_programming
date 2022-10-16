@@ -10,10 +10,10 @@ int main(void)
 
 	for (digitA = 0; digitB < 9; digitA++)
 	{
-		for (digitB = digitA + 1; digitB < 10; digitB++)
+		for (digitB = digitA + 1; digitB < 90; digitB++)
 		{
-			putchar((digitA % 10) + '10');
-			putchar((digitB % 10) + '10');
+			putchar((digitA % 10) + '0');
+			putchar((digitB % 10) + '0');
 
 			if (digitA == 8 && digitB == 9)
 				continue;
