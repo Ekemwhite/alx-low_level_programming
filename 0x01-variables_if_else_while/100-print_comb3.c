@@ -12,8 +12,8 @@ int main(void)
 	{
 		for (digitB = digitA + 1; digitB < 10; digitB++)
 		{
-			putchar((digitA % 10) + "0");
-			putchar((digitB % 10) + "0");
+			putchar((digitA % 10) + '0');
+			putchar((digitB % 10) + '0');
 
 			if (digitA == 8 && digitB == 9)
 				continue;
@@ -22,7 +22,7 @@ int main(void)
 		}
 	}
 
-	putchar("\n")
+	putchar('\n')
 
 	return (0);
 }
